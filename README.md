@@ -5,4 +5,8 @@ This project addresses the task of profiling irony speech spreaders on social ne
 
 This dual-model strategy, in conjunction with multi-stage cleaning, adeptly addresses the diverse writing styles and non-standard expressions that are characteristic of social media texts. By clustering writings without the influence of an author's stylistic elements—systematically removed during the cleaning phase—only the essential, topic-driven content is preserved. This refinement allows for more accurate categorization of the author's writing and a deeper comprehension of irony within each thematic area, thereby enhancing classification performance.
 
-The code has been executed on the PAN22 dataset; however, due to the dataset's private nature, its availability is restricted. Therefore, the dataset is not included in this repository. Interested users may access the dataset directly from the PAN website. Furthermore, the PaLM model has been utilized in this code, having been accessed during a public availability period. Unfortunately, the checkpoint cannot be provided here due to the proprietary nature of the model.
+The code has been executed on the PAN22 dataset; however, due to the dataset's private nature, its availability is restricted. Therefore, the dataset is not included in this repository. Interested users may access the dataset directly from the PAN website: https://pan.webis.de/clef22/pan22-web/author-profiling.html#data
+ Furthermore, the PaLM model has been utilized in this code, having been accessed during a public availability period. Unfortunately, the checkpoint cannot be provided here due to the proprietary nature of the model.
+#for download model
+!wget "https://huggingface.co/conceptofmind/palm-2b/resolve/main/palm_2b_8k_v0.pt" -O "./PaLM/checkpoints/palm_2b_8k_v0.pt"
+#https://github.com/conceptofmind/PaLM/
