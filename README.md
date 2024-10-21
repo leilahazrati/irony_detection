@@ -10,6 +10,7 @@ https://pan.webis.de/clef22/pan22-web/author-profiling.html#data
 
  Furthermore, the PaLM model has been utilized in this code, having been accessed during a public availability period. Unfortunately, the checkpoint cannot be provided here due to the proprietary nature of the model.
 
-#for download model
-!wget "https://huggingface.co/conceptofmind/palm-2b/resolve/main/palm_2b_8k_v0.pt" -O "./PaLM/checkpoints/palm_2b_8k_v0.pt"
+#for download PaLm model
+!wget "https://huggingface.co/conceptofmind/palm-2b/resolve/main/palm_2b_8k_v0.pt"-O"./PaLM/checkpoints/palm_2b_8k_v0.pt"
+
 #https://github.com/conceptofmind/PaLM/
